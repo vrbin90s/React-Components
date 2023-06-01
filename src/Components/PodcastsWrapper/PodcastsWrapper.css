@@ -1,0 +1,14 @@
+.section-title {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.podcasts-wrapper {
+  /* display: grid;
+    row-gap: 20px; */
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}

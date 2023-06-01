@@ -1,0 +1,28 @@
+.main-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.main-news .news-item {
+  background-color: white;
+}
+
+.main-news .news-item .image-wrapper {
+  height: 250px;
+}
+
+.main-news .news-item .news-content {
+  padding: 30px;
+}
+
+.main-news .news-item .news-content .news-title {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 999px) {
+  .main-news {
+    grid-template-columns: 1fr;
+  }
+}
