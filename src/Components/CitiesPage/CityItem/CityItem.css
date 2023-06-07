@@ -1,0 +1,21 @@
+.city-item {
+    width: calc((100% - 20px) / 2);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.even {
+    background: rgb(240, 240, 240)
+}
+
+.half-width {
+    width: calc((100% - 20px) / 2);
+}
+.full-width {
+    width: 100%;
+}
+
+strong {
+    display: block;
+    padding: 1rem 0;
+}

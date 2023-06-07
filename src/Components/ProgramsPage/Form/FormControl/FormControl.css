@@ -1,0 +1,10 @@
+.programs-filter-form .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.programs-filter-form fieldset .form-control {
+    flex-direction: row;
+    margin-bottom: 0;
+}

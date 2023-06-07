@@ -1,0 +1,23 @@
+.news-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+@media screen and (max-width: 999px) {
+    .news-section {
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .news-section {
+        grid-template-columns: 1fr;
+    }
+}

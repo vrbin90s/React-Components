@@ -1,0 +1,17 @@
+.programs-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 899px) {
+    .programs-wrapper {
+        grid-template-columns: 2fr 3fr;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .programs-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
