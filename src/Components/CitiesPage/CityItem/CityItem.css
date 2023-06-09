@@ -2,17 +2,11 @@
     width: calc((100% - 20px) / 2);
     padding: 20px;
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 .even {
-    background: rgb(240, 240, 240)
-}
-
-.half-width {
-    width: calc((100% - 20px) / 2);
-}
-.full-width {
-    width: 100%;
+    background: #fff;
 }
 
 strong {

@@ -1,0 +1,9 @@
+.city-add-form {
+    background-color: #fff;
+    padding: 2rem;
+    margin-left: 40px;
+}
+
+.form-group input, .form-group input, .form-group textarea  {
+    display: block;
+}

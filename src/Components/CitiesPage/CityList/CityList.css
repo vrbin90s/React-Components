@@ -3,3 +3,8 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.odd-cities .city-item:last-child {
+    width: 100%;
+  }
+
